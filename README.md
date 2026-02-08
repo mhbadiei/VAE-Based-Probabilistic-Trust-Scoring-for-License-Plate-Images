@@ -12,26 +12,20 @@ We aim to quantify *fitness-for-task* directly from learned latent geometry.
 
 ---
 
-## Conceptual Motivation
+## Motivation
 
 Modern deep learning pipelines often assume that input data is clean enough to be processed.  
 However, in real-world environments, syntactically valid and semantically correct samples may still fail to provide reliable information for recognition tasks.
 
-Instead of focusing on model robustness alone, this project shifts the perspective toward:
+Instead of focusing on model robustness alone, we shift the perspective toward:
 
 - **Pragmatic Data Quality**
 - **Latent Reliability**
 - **Uncertainty-Aware Filtering**
 
-The core hypothesis is that:
+So the core hypothesis is that:
 
 > The structure of the latent distribution encodes implicit signals about perceptual usability.
 
 By exploiting probabilistic embeddings, we move validation from raw pixel space into a structured statistical manifold.
-
----
-
-## Core Idea
-
-The framework models each license plate image as a **Gaussian latent posterior** learned through a convolutional Variational Autoencoder (VAE):
 
