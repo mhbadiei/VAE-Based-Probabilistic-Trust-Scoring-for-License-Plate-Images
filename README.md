@@ -1,4 +1,4 @@
-# Probabilistic Trust Scoring for Diverse License Plate Images
+# Transformer Based Variational Probabilistic Trust Scoring for Diverse License Plate Images
 
 In this repo, we have attached our code which implements a **probabilistic, data-centric validation framework** designed to estimate the *pragmatic usability* of visual inputs prior to downstream recognition or OCR pipelines.
 
