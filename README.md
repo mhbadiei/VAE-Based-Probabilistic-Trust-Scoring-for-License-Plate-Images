@@ -19,9 +19,9 @@ However, in real-world environments, syntactically valid and semantically correc
 
 Instead of focusing on model robustness alone, we shift the perspective toward:
 
-- **Pragmatic Data Quality**
-- **Latent Reliability**
-- **Uncertainty-Aware Filtering**
+- **Quality**
+- **Reliability**
+- **Uncertainty**
 
 So the core hypothesis is that:
 
